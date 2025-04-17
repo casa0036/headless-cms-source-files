@@ -41,6 +41,13 @@
     },
     "content": {
       "type": "text"
+    },
+    "featuredImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

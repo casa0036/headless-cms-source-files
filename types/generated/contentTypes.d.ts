@@ -387,6 +387,7 @@ export interface ApiReviewPostReviewPost extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     developer: Schema.Attribute.String & Schema.Attribute.Required;
     difficulty: Schema.Attribute.String;
+    featuredImage: Schema.Attribute.Media<'images', true>;
     genre: Schema.Attribute.String & Schema.Attribute.Required;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
