@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "review_posts",
+  "info": {
+    "singularName": "review-post",
+    "pluralName": "review-posts",
+    "displayName": "Review Post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "developer": {
+      "type": "string",
+      "required": true
+    },
+    "platform": {
+      "type": "string",
+      "required": true
+    },
+    "genre": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "multiplayer": {
+      "type": "boolean"
+    },
+    "releaseDate": {
+      "type": "date"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}
